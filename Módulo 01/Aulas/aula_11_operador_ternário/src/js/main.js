@@ -1,0 +1,1 @@
+console.log(18 > 20 ? 'Verdadeiro' : 'Falso');
