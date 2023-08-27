@@ -1,9 +1,10 @@
-let game = 'Tetris';
+let idade = 16;
+let sexo = 'M';
 
-if (game == 'Red Dead Redemption 2' || game == 'Shadow of the Colossus'){
-    console.log('Best Game')
-}
-
-else{
-    console.log('MEEEH')
+if (idade >= 18 && sexo === 'M'){
+    console.log("Tem que servir!!!")
+} else if (idade >= 18 && sexo === 'F'){
+    console.log("Você não obrigada a servir!!!")
+}else{
+    console.log("Você ainda não pode servir")
 }
