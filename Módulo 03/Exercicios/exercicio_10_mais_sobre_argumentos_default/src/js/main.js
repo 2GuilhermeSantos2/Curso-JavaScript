@@ -1,11 +1,6 @@
-let consoleTeste = () =>{
-    console.log("Hello World");
-};
-
-consoleTeste();
-
-let soma = (a,b) =>{
-    return a * b;
+function potencia(base, expoente = 2){
+    return Math.pow(base, expoente);
 }
 
-console.log(soma(2, 6));
+console.log(potencia());
+console.log(potencia(5, 10));
