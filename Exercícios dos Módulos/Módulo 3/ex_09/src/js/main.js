@@ -11,5 +11,5 @@ function potencia(x, y){
 
 
 
-potencia(3,5);
-potencia(10, 10)
+let pote = potencia;
+console.log(potencia);

@@ -6,8 +6,11 @@ function autoEscola(){
     }else{
         console.log(`Você tem ${idade}, você NÃO pode entrar na auto escola`);
     }
+
+    return idade;
 }
 
-autoEscola();
-autoEscola();
+
+
+
 
